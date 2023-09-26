@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Bootstrap - Alinhamento de textos</title>
+  </head>
+  <body style="margin-bottom: 200px; padding: 16px;">
+    
+        <!--Parágrafo justificado-->
+        <p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Ex alias nesciunt id temporibus aliquid fuga eaque perspiciatis 
+            quia cumque dolorum. Doloribus blanditiis est ad corporis 
+            expedita tempora quia eveniet suscipit. Lorem ipsum dolor 
+            sit amet consectetur adipisicing elit. Voluptatibus, adipisci 
+            nihil sunt reprehenderit mollitia repudiandae numquam quidem 
+            sed vel libero accusamus molestiae consequatur recusandae 
+            laboriosam saepe inventore, cupiditate officia porro.</p>
+
+            <br>
+            <br>
+
+            <!--
+                Alinhamento responsivo - 
+                text-<tela>-<alinhamento>
+                    tela: sm, md, lg, xl
+                    alinhamento: left, center, right
+            -->
+            <p class="text-sm-center">tela &gt;= 576px</p><!--Small-->
+            <p class="text-md-center">tela &gt;= 768px</p><!--Medium-->
+            <p class="text-lg-center">tela &gt;= 992px</p><!--Large-->
+            <p class="text-xl-center">tela &gt;= 1200px</p><!--Extra large-->
+
+
+            <br>
+            <br>
+
+            <!--Elemento Block para inline-->
+            <h1 class="bg-success d-inline">Lorem ipsum dolor</h1>
+            <p class="bg-success d-inline">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+            <br>
+            <br>
+
+            <!--Elemento inline para Block-->
+            <span class="bg-success d-block">Lorem ipsum dolor 1</span>
+            <br>
+            <span class="bg-success d-block">Lorem ipsum dolor 2</span>
+
+            <br>
+            <br>
+
+            <!--Elemento inline-block-->
+            <div class="bg-warning">
+            <h3 class="bg-success d-inline-block">Lorem ipsum</h3>
+            <h3 class="bg-success d-inline-block" style="margin-top: 50px; width: 400px;">Lorem ipsum dolor</h3>
+            </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
